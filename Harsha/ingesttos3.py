@@ -21,12 +21,12 @@ try:
      
     #putting file to S3
     
-    s3 = boto3.resource('S3')
-    # Upload a json file to s3 bucket
-    file_to_upload = open(filepath, 'rb')
-    s3.Bucket('your-bucket-name').put_object(Key='test.json', Body=file_to_upload)
+    #s3 = boto3.resource('S3')
+    ## Upload a json file to s3 bucket
+    #file_to_upload = open(filepath, 'rb')
+    #s3.Bucket('your-bucket-name').put_object(Key='test.json', Body=file_to_upload)
     
-    print("File uploaded Successfully.")
+    #print("File uploaded Successfully.")
     
 except:
     print("An error occurred")
