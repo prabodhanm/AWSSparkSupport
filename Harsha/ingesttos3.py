@@ -1,6 +1,6 @@
 import requests
 import json
-import boto3
+#import boto3
 
 api_token    = "b09d70ce-d201-4fb9-b3c9-5cd19154f3b7"
 api_base_url = "https://api.appetizeapp.com/v5/report/venues/"
